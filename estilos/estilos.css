@@ -112,7 +112,12 @@ header{
     margin-top: 10px;
     margin-left: 20%;
 }
-
+.navbar-dark{
+	background-color: #e3d7bf;
+}
+.dropdown-menu{
+	background-color: #e3d7bf;
+}
 
 /*--------------------------------------------*/
 
