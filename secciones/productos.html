@@ -14,7 +14,7 @@
 </head>
 <body>
 	<header>
-		<nav>
+		<!-- <nav>
 			<a href="../index.html" class="sinLogo">
 				<img src="../imagenes/ltw.png" alt="Live to Win" class="logo">
 			</a>
@@ -26,12 +26,37 @@
 					<li><a href="info.html" target="_self" >Info</a></li>
 					<li><a href="contacto.html" target="_self" >Contacto</a></li>
 				</ul>
+		</nav> -->
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+			<a class="navbar-brand" href="../index.html" class="sinLogo"><img src="../imagenes/ltw.png" alt="Live to Win" class="logo"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="#">Productos</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#pantalonLuana" target="_self" data-ancla="pantalonLuana">Pantalón</a>
+							<a class="dropdown-item" href="#remeron" target="_self" data-ancla="remeron">Remerón</a>
+							<a class="dropdown-item" href="#campera" target="_self" data-ancla="campera">Campera</a>
+							<a class="dropdown-item" href="#capri" target="_self" data-ancla="capri">Capri</a>
+							<a class="dropdown-item" href="#vestido" target="_self" data-ancla="vestido">Vestido</a>
+						</div>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="talles.html" target="_self">Talles</a></li>
+					<li class="nav-item"><a class="nav-link" href="comprar.html" target="_self">Comprar</a></li>
+					<li class="nav-item"><a class="nav-link" href="info.html" target="_self" >Info</a></li>
+					<li class="nav-item"><a class="nav-link" href="contacto.html" target="_self" >Contacto</a></li>
+				</ul>
+			
 		</nav>
 	</header>
 
 	<main>
 		<h2 class="tituloSeccion">Catálogo de prendas</h2>
-		<h3 class="tituloCadaPrenda">Pantalón Luana</h3>
+		<a id="pantalonLuana"></a>
+		<h3 class="tituloCadaPrenda" >Pantalón Luana</h3>
 		<div class="prendasAcomodadas">
 	
 			<div class="descripcion">
@@ -100,7 +125,8 @@
 				
 			</div>
 		</div>
-		<h3 class="tituloCadaPrenda">Remerón Spring</h3>
+		<a id="remeron"></a>
+		<h3 class="tituloCadaPrenda" >Remerón Spring</h3>
 		<div class="prendasAcomodadas">
 				
 			<div class="descripcion">	
@@ -168,7 +194,8 @@
 				
 			</div>
 		</div>
-		<h3 class="tituloCadaPrenda">Campera Jean</h3>
+		<a id="campera"></a>
+		<h3 class="tituloCadaPrenda" >Campera Jean</h3>
 		<div class="prendasAcomodadas">
 				
 			<div class="descripcion">	
@@ -236,7 +263,8 @@
 				
 			</div>
 		</div>
-		<h3 class="tituloCadaPrenda">Capri</h3>
+		<a id="capri"></a>
+		<h3 class="tituloCadaPrenda" >Capri</h3>
 		<div class="prendasAcomodadas">
 				
 			<div class="descripcion">	
@@ -304,7 +332,8 @@
 				
 			</div>
 		</div>
-		<h3 class="tituloCadaPrenda">Vestido</h3>
+		<a id="vestido"></a>
+		<h3 class="tituloCadaPrenda" >Vestido</h3>
 		<div class="prendasAcomodadas">
 			
 			<div class="descripcion">	

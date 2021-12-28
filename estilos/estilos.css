@@ -112,11 +112,15 @@ header{
     margin-top: 10px;
     margin-left: 20%;
 }
-.navbar-dark{
-	background-color: #e3d7bf;
-}
+
 .dropdown-menu{
 	background-color: #e3d7bf;
+}
+.navbar{
+	background-color: #e3d7bf !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #212529;
 }
 
 /*--------------------------------------------*/
@@ -315,6 +319,7 @@ main{
 	font-size: 23px;
 	padding-left: 5%;
 }
+
 
 /*--------------------------------------------*/
 @media only screen and (max-width: 1080px){
