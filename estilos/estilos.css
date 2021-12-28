@@ -128,7 +128,8 @@ header{
 /*-------FOOTER COMUN A TODOS LOS HTML -------*/
 
 footer{
-	background-color: #ab9680;
+	background: linear-gradient(to right, #ab9680,#e3d7bf);
+	/* background-color: #ab9680; */
 	height: 160px;
 	width: 100%;
 	margin: 0px;
