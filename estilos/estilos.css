@@ -119,7 +119,7 @@ header{
 .navbar{
 	background-color: #e3d7bf !important;
 }
-.navbar-dark .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
     color: #212529;
 }
 
