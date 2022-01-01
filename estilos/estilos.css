@@ -207,6 +207,14 @@ main{
 	text-transform: uppercase;
 	padding-bottom: 15px;
 }
+.tituloIndex{
+	font-size: 65px !important;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 80%;
+  }
+ 
 /*--------------------------------------------*/
 
 /*-------------MAIN DE PRODUCTOS---------------*/
