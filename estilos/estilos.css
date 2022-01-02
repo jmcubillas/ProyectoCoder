@@ -34,7 +34,7 @@ header{
 	width: 55px;
 	margin: 5px;
 }
-#tituloEscondido{
+.tituloEscondido{
 	display: none;
 }
 
@@ -312,7 +312,12 @@ main{
 	  background-color: #735945;
 	  border-color: #735945;
   }
+/*--------------------------------------------*/
+/*------------MAIN HTML INFO--------------*/
 
+.contenedorDatos{
+	padding-left: 25px;
+}
 
 /*--------------------------------------------*/
 @media only screen and (max-width: 1080px){
@@ -435,7 +440,7 @@ main{
 }
 /*--------EN ESTA MEDIDA COLOCARIA UN MENU HAMBURGUESA EN LUGAR DE LOS BOTONES---------*/
 @media only screen and (max-width: 575px){
-	#tituloEscondido{
+	.tituloEscondido{
 		display: block;
 
 	}
