@@ -202,7 +202,7 @@ main{
 }
 .tituloSeccion{
 	text-align: center;
-	font-size: 85px;
+	font-size: 65px;
 	margin-top: 60px;
 	text-transform: uppercase;
 	padding-bottom: 15px;
@@ -220,7 +220,6 @@ main{
 /*-------------MAIN DE PRODUCTOS---------------*/
 
 .descripcion{
-
 	position: relative;
   	/*width: 23%;*/
   	display: inline-block;
@@ -292,7 +291,19 @@ main{
 
 /*--------------------------------------------*/
 
-/*----------MAIN HTML ------------*/
+/*----------MAIN COMPRAR ------------*/
+
+.listadoPComprar{
+	list-style: none;
+	font-size: 15px;
+}
+.list-group-item{
+	background: none !important;
+}
+.datoSecundario{
+	padding-left: 40px;
+}
+
 
 /*--------------------------------------------*/
 
@@ -436,7 +447,7 @@ h3 {
 		margin-top: 60px;
 	}
 	.tituloSeccion{
-		font-size: 70px;
+		font-size: 60px;
 	}
 	.encontranos{
 		font-size: 20px;
@@ -480,7 +491,7 @@ h3 {
 		
 	}
 	.tituloSeccion{
-		font-size: 60px;
+		font-size: 55px;
 	}	
 	.encontranos{
 		font-size: 15px;
