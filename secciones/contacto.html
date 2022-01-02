@@ -27,11 +27,11 @@
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="#">Productos</a>
 						<div class="dropdown-menu">
-							<a class="dropdown-item" href="productos.html#pantalonLuana" target="_self">Pantalón</a>
-							<a class="dropdown-item" href="productos.html#remeron" target="_self">Remerón</a>
-							<a class="dropdown-item" href="productos.html#campera" target="_self">Campera</a>
-							<a class="dropdown-item" href="productos.html#capri" target="_self">Capri</a>
-							<a class="dropdown-item" href="productos.html#vestido" target="_self">Vestido</a>
+							<a class="dropdown-item" href="productos.html#pantalon" target="_self" data-ancla="pantalon">Pantalones</a>
+							<a class="dropdown-item" href="productos.html#remeron" target="_self" data-ancla="remeron">Remerones</a>
+							<a class="dropdown-item" href="productos.html#campera" target="_self" data-ancla="campera">Camperas</a>
+							<a class="dropdown-item" href="productos.html#jean" target="_self" data-ancla="jean">Jeans</a>
+							<a class="dropdown-item" href="productos.html#vestido" target="_self" data-ancla="vestido">Vestidos</a>
 						</div>
 					</li>
 					<li class="nav-item"><a class="nav-link" href="talles.html" target="_self">Talles</a></li>
@@ -42,105 +42,69 @@
 			
 		</nav>
 	</header>
-	<!-- <main class="mainContacto">
-		<h1>contanos tu experiencia</h1>
-		<h2 class="tituloSeccion"> Contacto </h2>
-		<h3 class="encontranos">nos encontramos en villa pueyrredón</h3>
-		
-		<div class="divContacto">
 		
 			
-			<div class="mapa">	
+			<!-- <div class="mapa">	
 				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7812.3782359125535!2d-58.49057877801229!3d-34.586445948471294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1638830043187!5m2!1ses!2sar" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-			</div>
+			</div> -->
 
-			<form class="formulario">
-				<label for="nombre">Nombre: </label>
-				<input type="text" name="nombre" placeholder="Nombre">
-				<br><br>
-
-				<label for="nombre">Email: </label>
-				<input type="text" name="email" placeholder="Email">
-				<br><br>
-
-				<div>Encontraste tu talle?</div>
-				<select name="talles">
-					<option value="yes">Si</option>
-					<option value="no">No</option>
-				</select>
-				<br><br>
-
-				<div>Querés recibir las promociones?</div>
-				<input type="checkbox" name="acepta" value="1" />
-				<br><br>
-
-				<label for="mensaje">Mensaje </label> <br>                    
-		        <textarea name="mensaje" required placeholder="Deja aquí tu comentario..."></textarea> 
-		        <br><br>
-
-		        <input type="submit" value="Enviar"/>
-			</form>
-		</div>
-	</main> -->
+			
 
 	<div class="content">    
 		<div class="container">
 			<div class="row">
-			<div class="col-md-5 mr-auto">
-			  <h2>Contacto</h2>
-			  <p class="mb-5">Estamos en el barrio de Villa Pueyrredón. Podes dejarnos cualquier duda o consulta en:</p>
-	
-			  <ul class="list-unstyled pl-md-5 mb-5">
-				<li class="d-flex text-black mb-2">
-				  <span class="mr-3"><img src="../imagenes/mapa.png"></span> Pareja 2100, CABA <br> Buenos Aires, Argentina.
-				</li>
-				<li class="d-flex text-black mb-2"><span class="mr-3"><img src="../imagenes/telefono.png"></span> 011 - 40865985</li>
-				<li class="d-flex text-black"><span class="mr-3"><img src="../imagenes/email.png"></span> livetowin.clothes@gmail.com </li>
-			  </ul>
-			</div>
-	
-			<div class="col-md-6">
-			  <form class="mb-5" method="post" id="contactForm" name="contactForm">
-				<div class="row">
-				  
-				  <div class="col-md-12 form-group">
-					<label for="name" class="col-form-label">Nombre</label>
-					<input type="text" class="form-control" name="name" id="name" placeholder="Nombre">
-				  </div>
-				</div>
-				<div class="row">
-				  <div class="col-md-12 form-group">
-					<label for="email" class="col-form-label">Email</label>
-					<input type="text" class="form-control" name="email" id="email" placeholder="Email">
-				  </div>
+				<div class="col-md-5 mr-auto">
+					<h2>Contacto</h2>
+					<p class="mb-5">Estamos en el barrio de Villa Pueyrredón. Podes dejarnos cualquier duda o consulta en:</p>
+			
+					<ul class="list-unstyled pl-md-5 mb-5">
+						<li class="d-flex text-black mb-2">
+						<span class="mr-3"><img src="../imagenes/mapa.png"></span> Pareja 2100, CABA <br> Buenos Aires, Argentina.
+						</li>
+						<li class="d-flex text-black mb-2"><span class="mr-3"><img src="../imagenes/telefono.png"></span> 011 - 40865985</li>
+						<li class="d-flex text-black"><span class="mr-3"><img src="../imagenes/email.png"></span> livetowin.clothes@gmail.com </li>
+					</ul>
 				</div>
 	
-				<div>Encontraste tu talle?</div>
-				  <select name="talles">
-					<option value="yes">Si</option>
-					<option value="no">No</option>
-				  </select>
-	
-				<div>Querés recibir nuestras promociones?</div>
-				  <input type="checkbox" name="acepta" value="1" />
-	
-				<div class="row">
-				  <div class="col-md-12 form-group">
-					<label for="message" class="col-form-label">Mensaje</label>
-					<textarea class="form-control" name="message" id="message" cols="30" rows="7" placeholder="Deja aquí tu comentario..."></textarea>
-				  </div>
+				<div class="col-md-6">
+					<form class="mb-5" method="post" id="contactForm" name="contactForm">
+						<div class="row">
+						
+							<div class="col-md-12 form-group">
+								<label for="name" class="col-form-label">Nombre</label>
+								<input type="text" class="form-control" name="name" id="name" placeholder="Nombre">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 form-group">
+								<label for="email" class="col-form-label">Email</label>
+								<input type="text" class="form-control" name="email" id="email" placeholder="Email">
+							</div>
+						</div>
+			
+						<div>Encontraste tu talle?</div>
+						<select name="talles">
+							<option value="yes">Si</option>
+							<option value="no">No</option>
+						</select>
+			
+						<div>Querés recibir nuestras promociones?</div>
+						<input type="checkbox" name="acepta" value="1" />
+			
+						<div class="row">
+							<div class="col-md-12 form-group">
+								<label for="message" class="col-form-label">Mensaje</label>
+								<textarea class="form-control" name="message" id="message" cols="30" rows="7" placeholder="Deja aquí tu comentario..."></textarea>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<input type="submit" value="Enviar" class="btn btn-primary rounded-0 py-2 px-4">
+								<span class="submitting"></span>
+							</div>
+						</div>
+					</form>
 				</div>
-				<div class="row">
-				  <div class="col-md-12">
-					<input type="submit" value="Enviar" class="btn btn-primary rounded-0 py-2 px-4">
-					<span class="submitting"></span>
-				  </div>
-				</div>
-			  </form>
-	
-			  <!-- <div id="form-message-warning mt-4"></div>  -->
-			  <!-- <div id="form-message-success"> Tu mensaje ha sido enviado, gracias!  </div> -->
-			</div>
 		  	</div>
 		</div>
 	</div>
