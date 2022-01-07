@@ -16,36 +16,15 @@ header{
 .tituloEscondido{
         display: none;
 }
-.botonera{
-		float: right;
-		margin-right: 20px;
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		gap: 10px;
-}
-.botonera li {
-		background-color: $color04;
-		display: inline-block;
-		font-size: 15px;
-		padding: 5px 10px 5px 10px;
-		border-radius: 5px;
-		text-transform: uppercase;	
-}
-.botonera li a {
-		color: $colortextobotones;
-		text-decoration: none;
-}
-.botonera li:hover{		
-		background-color: lightgray;
-}
-.tituloPrincipal {
-        display: inline-block;
-        text-align: center;
-        font-size: 45px;
-        margin-top: 10px;
-        margin-left: 20%;
-}
+
+
+// .tituloPrincipal {
+//         display: inline-block;
+//         text-align: center;
+//         font-size: 45px;
+//         margin-top: 10px;
+//         margin-left: 20%;
+// }
 .dropdown-menu{
         background-color: $color01;
 }

@@ -4,8 +4,7 @@ body {
   background-image: url(../imagenes/stacked-waves-haikei.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-}
+  background-position: center; }
 
 /*-----------------------------------------*/
 /*-----Header-------*/
@@ -15,71 +14,24 @@ header {
   background-color: #e3d7bf;
   position: fixed;
   width: 100%;
-  z-index: 10;
-}
+  z-index: 10; }
 
 .logo {
   float: left;
   width: 55px;
-  margin: 5px;
-}
+  margin: 5px; }
 
 .tituloEscondido {
-  display: none;
-}
-
-.botonera {
-  float: right;
-  margin-right: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 10px;
-}
-
-.botonera li {
-  background-color: #7e634e;
-  display: inline-block;
-  font-size: 15px;
-  padding: 5px 10px 5px 10px;
-  border-radius: 5px;
-  text-transform: uppercase;
-}
-
-.botonera li a {
-  color: black;
-  text-decoration: none;
-}
-
-.botonera li:hover {
-  background-color: lightgray;
-}
-
-.tituloPrincipal {
-  display: inline-block;
-  text-align: center;
-  font-size: 45px;
-  margin-top: 10px;
-  margin-left: 20%;
-}
+  display: none; }
 
 .dropdown-menu {
-  background-color: #e3d7bf;
-}
+  background-color: #e3d7bf; }
 
 .navbar {
-  background-color: #e3d7bf;
-}
+  background-color: #e3d7bf; }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #212529;
-}
+  color: #212529; }
 
 /*-----FinHeader-------*/
 /*-----Footer-------*/
@@ -88,98 +40,80 @@ footer {
   height: 160px;
   width: 100%;
   margin: 0px;
-  font-size: 20px;
-}
+  font-size: 20px; }
 
 footer h2 {
   margin: 0px;
   padding-top: 25px;
   text-align: center;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 footer nav ul {
-  margin: 0px;
-}
+  margin: 0px; }
 
 .logoRedes {
   width: 35px;
-  height: 35px;
-}
+  height: 35px; }
 
 .botoneraRedes {
   margin-top: 25px;
   margin-bottom: 25px;
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-}
+  justify-content: space-around; }
 
 /*-----FinFooter-------*/
 /*------------MAIN DEL INDEX------------------*/
 main {
   padding-top: 65px;
   min-height: 600px;
-  background-size: cover;
-}
+  background-size: cover; }
 
 .contieneBG {
   position: relative;
   display: inline-block;
-  text-align: center;
-}
+  text-align: center; }
 
 .textoCentradoBG {
   text-align: center;
   margin: 80px 80px 20px 80px;
-  padding-bottom: 50px;
-}
+  padding-bottom: 50px; }
 
 .tituloIndex {
-  font-size: 65px;
-}
+  font-size: 65px; }
 
 .textoCentradoBG h3 {
-  font-size: 25px;
-}
+  font-size: 25px; }
 
 .textoCentradoBG p {
-  font-size: 15px;
-}
+  font-size: 15px; }
 
 .bgPrincipal {
   background-size: cover;
   width: 100%;
-  height: auto;
-}
+  height: auto; }
 
 .tituloSeccion {
   text-align: center;
   font-size: 65px;
   margin-top: 60px;
   text-transform: uppercase;
-  padding-bottom: 15px;
-}
+  padding-bottom: 15px; }
 
 .carousel-inner img {
   width: 100%;
-  height: 80%;
-}
+  height: 80%; }
 
 /*--------------------------------------------*/
 /*-------------MAIN DE PRODUCTOS---------------*/
 .descripcion {
   position: relative;
-  display: inline-block;
-}
+  display: inline-block; }
 
 .prenda {
   display: block;
-  width: 100%;
-}
+  width: 100%; }
 
 .oculto {
   position: absolute;
@@ -191,33 +125,27 @@ main {
   width: 100%;
   opacity: 0;
   transition: .2s;
-  background-color: #c7b69f;
-}
+  background-color: #c7b69f; }
 
 .descripcion:hover .oculto {
-  opacity: 1;
-}
+  opacity: 1; }
 
 .textoPrenda {
   color: black;
   font-size: 11px;
   position: absolute;
   top: 10%;
-  text-align: center;
-}
+  text-align: center; }
 
 .textoColores {
-  list-style-type: none;
-}
+  list-style-type: none; }
 
 .tituloCadaPrenda {
   margin-left: 40px;
-  font-size: 45px;
-}
+  font-size: 45px; }
 
 .prendasAcomodadas {
   width: 100%;
-  display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
@@ -225,83 +153,68 @@ main {
   justify-items: center;
   padding-right: 20px;
   padding-left: 20px;
-  padding-bottom: 50px;
-}
+  padding-bottom: 50px; }
 
 /*--------------------------------------------*/
 /*----------MAIN HTML TALLES------------------*/
 .mainTalles {
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 .tablas {
   width: 100%;
-  display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
   align-items: start;
   justify-items: center;
-  padding-bottom: 50px;
-}
+  padding-bottom: 50px; }
 
 /*--------------------------------------------*/
 /*----------MAIN COMPRAR ------------*/
 .listadoPComprar {
   list-style: none;
-  font-size: 15px;
-}
+  font-size: 15px; }
 
 .list-group-item {
-  background: none !important;
-}
+  background: none !important; }
 
 .datoSecundario {
-  padding-left: 40px;
-}
+  padding-left: 40px; }
 
 /*--------------------------------------------*/
 /*------------MAIN HTML INFO--------------*/
 .contenedorDatos {
-  padding-left: 25px;
-}
+  padding-left: 25px; }
 
 /*--------------------------------------------*/
 /*------------MAIN HTML CONTACTO--------------*/
 .content {
-  padding: 7rem 0;
-}
+  padding: 7rem 0; }
 
 .container {
-  margin-top: 70px;
-}
+  margin-top: 70px; }
 
 .form-control {
   border: none;
   border: 1px solid #d9d9d9;
-  border-radius: 0;
-}
+  border-radius: 0; }
 
 .form-control:active, .form-control:focus {
   outline: none;
   -webkit-box-shadow: none;
   box-shadow: none;
-  border-color: black;
-}
+  border-color: black; }
 
 .btn, .form-control {
-  height: 55px;
-}
+  height: 55px; }
 
 .btn:active, .btn:focus {
   outline: none;
   -webkit-box-shadow: none;
-  box-shadow: none;
-}
+  box-shadow: none; }
 
 #message {
-  resize: vertical;
-}
+  resize: vertical; }
 
 .submitting {
   float: left;
@@ -310,21 +223,18 @@ main {
   display: none;
   font-weight: bold;
   font-size: 12px;
-  color: black;
-}
+  color: black; }
 
 .btn-primary {
   color: black;
   background-color: #7e634e;
   border-color: #7e634e;
-  border-radius: 10% !important;
-}
+  border-radius: 10% !important; }
 
 .btn-primary:hover {
   color: black;
   background-color: #735945;
-  border-color: #735945;
-}
+  border-color: #735945; }
 
 /*--------------------------------------------*/
 @media only screen and (max-width: 1080px) {
@@ -333,144 +243,131 @@ main {
     font-size: 13px;
     padding: 2px 6px 2px 6px;
     border-radius: 4px;
-    margin-top: 5px;
-  }
-  .textoCentradoBG {
-    margin-top: 60px;
-  }
-  .tituloSeccion {
-    font-size: 60px;
-  }
-  .encontranos {
-    font-size: 20px;
-  }
-  .tituloIndex {
-    font-size: 60px;
-  }
-}
+    margin-top: 5px; }
 
+  .textoCentradoBG {
+    margin-top: 60px; }
+
+  .tituloSeccion {
+    font-size: 60px; }
+
+  .encontranos {
+    font-size: 20px; }
+
+  .tituloIndex {
+    font-size: 60px; } }
 @media only screen and (max-width: 980px) {
   .sinLogo {
-    display: none;
-  }
+    display: none; }
+
   .tituloPrincipal {
     display: inline-block;
     text-align: center;
     font-size: 40px;
     margin-top: 9px;
-    margin-left: 20%;
-  }
+    margin-left: 20%; }
+
   .botonera li {
     display: inline-block;
     font-size: 10px;
     padding: 2px 4px 2px 4px;
-    margin-top: 10px;
-  }
+    margin-top: 10px; }
+
   .tablas {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
+    grid-template-columns: repeat(2, 1fr); }
+
   .tituloCadaPrenda {
-    font-size: 30px;
-  }
+    font-size: 30px; }
+
   .prendasAcomodadas {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
+    grid-template-columns: repeat(3, 1fr); }
+
   .tituloSeccion {
-    font-size: 55px;
-  }
+    font-size: 55px; }
+
   .encontranos {
     font-size: 15px;
-    padding-left: 5%;
-  }
-  .tituloIndex {
-    font-size: 55px;
-  }
-}
+    padding-left: 5%; }
 
+  .tituloIndex {
+    font-size: 55px; } }
 @media only screen and (max-width: 780px) {
   .tituloPrincipal {
     display: inline-block;
     text-align: center;
     margin-top: 10px;
-    margin-left: 30%;
-  }
+    margin-left: 30%; }
+
   .tablas {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr;
-  }
+    grid-template-columns: 1fr; }
+
   .prendasAcomodadas {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
+    grid-template-columns: repeat(2, 1fr); }
+
   .tituloSeccion {
     margin-top: 50px;
-    font-size: 50px;
-  }
+    font-size: 50px; }
+
   .tituloIndex {
-    font-size: 40px;
-  }
+    font-size: 40px; }
+
   .textoCentradoBG h3 {
-    font-size: 20px;
-  }
+    font-size: 20px; }
+
   .textoCentradoBG p {
-    font-size: 10px;
-  }
+    font-size: 10px; }
+
   .divContacto {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .encontranos {
-    text-align: center;
-  }
-}
+    grid-template-columns: repeat(1, 1fr); }
 
+  .encontranos {
+    text-align: center; } }
 /*--------EN ESTA MEDIDA COLOCARIA UN MENU HAMBURGUESA EN LUGAR DE LOS BOTONES---------*/
 @media only screen and (max-width: 575px) {
   .tituloEscondido {
-    display: block;
-  }
-}
-
+    display: block; } }
 /*-----------------------MEDIDA DE IPHONE 6/7/8 ---------------------*/
 @media only screen and (max-width: 450px) {
   .tituloPrincipal {
     text-align: center;
     margin-top: 10px;
-    margin-left: 20%;
-  }
+    margin-left: 20%; }
+
   .textoCentradoBG {
-    margin-top: 40px;
-  }
+    margin-top: 40px; }
+
   .tituloIndex {
     font-size: 20px;
-    font-family: 'Yeseva One', cursive;
-  }
+    font-family: 'Yeseva One', cursive; }
+
   .textoCentradoBG h3 {
-    font-size: 10px;
-  }
+    font-size: 10px; }
+
   .textoCentradoBG p {
-    font-size: 8px;
-  }
+    font-size: 8px; }
+
   .prendasAcomodadas {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
+    grid-template-columns: repeat(1, 1fr); }
+
   .tituloCadaPrenda {
-    font-size: 20px;
-  }
+    font-size: 20px; }
+
   footer h2 {
-    font-size: 15px;
-  }
+    font-size: 15px; }
+
   .tituloSeccion {
-    font-size: 30px;
-  }
-}
+    font-size: 30px; } }
+
 /*# sourceMappingURL=estilos.css.map */
