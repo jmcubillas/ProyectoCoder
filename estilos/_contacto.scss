@@ -1,0 +1,51 @@
+/*------------MAIN HTML CONTACTO--------------*/
+
+.content {
+    padding: 7rem 0; 
+}
+.container{
+	margin-top: 70px;
+}
+.form-control {
+    border: none;
+    border: 1px solid $colorbordeinactivo;
+    border-radius: 0; 
+}
+.form-control:active, .form-control:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: $colorbordeactivo; 
+}
+.btn, .form-control {
+    height: 55px; 
+}
+.btn:active, .btn:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; 
+}
+#message {
+    resize: vertical; 
+}
+.submitting {
+	float: left;
+	width: 100%;
+	padding: 10px 0;
+	display: none;
+	font-weight: bold;
+	font-size: 12px;
+	color: $colortextobotones; 
+}  
+.btn-primary{
+	color: $colortextobotones;
+	background-color: $color04;
+	border-color: $color04;
+	border-radius: 10% !important;
+}
+.btn-primary:hover {
+	color: $colortextobotones;
+	background-color: $color05;
+	border-color: $color05;
+}
+/*--------------------------------------------*/

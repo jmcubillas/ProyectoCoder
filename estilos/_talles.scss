@@ -1,0 +1,15 @@
+/*----------MAIN HTML TALLES------------------*/
+.mainTalles{
+	text-transform: uppercase;
+}
+.tablas{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 30px;
+	align-items: start;
+	justify-items: center;
+	padding-bottom: 50px;
+}
+
+/*--------------------------------------------*/

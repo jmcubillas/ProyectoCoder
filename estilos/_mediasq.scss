@@ -1,0 +1,161 @@
+@media only screen and (max-width: 1080px){
+
+	.botonera li {
+		display: inline-block;
+		font-size: 13px;
+		padding: 2px 6px 2px 6px;
+		border-radius: 4px;
+		margin-top: 5px;
+	}
+	.textoCentradoBG{
+		margin-top: 60px;
+	}
+	.tituloSeccion{
+		font-size: 60px;
+	}
+	.encontranos{
+		font-size: 20px;
+	}
+	.tituloIndex{
+		font-size: 60px;
+	}
+
+}
+
+@media only screen and (max-width: 980px){
+	.sinLogo{
+		display: none ;
+	}
+    .tituloPrincipal {
+		display: inline-block;
+		text-align: center;
+        font-size: 40px;
+        margin-top: 9px;
+        margin-left: 20%;
+	}
+	.botonera li {
+		display: inline-block;
+		font-size: 10px;
+		padding: 2px 4px 2px 4px;
+		margin-top: 10px;
+	}
+	.tablas{
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.tituloCadaPrenda{
+		font-size: 30px;
+	}
+	.prendasAcomodadas{
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.tituloSeccion{
+		font-size: 55px;
+	}	
+	.encontranos{
+		font-size: 15px;
+		padding-left: 5%;
+	}
+	.tituloIndex{
+		font-size: 55px;
+	}
+}
+
+@media only screen and (max-width: 780px){
+
+		.tituloPrincipal {
+		display: inline-block;
+		text-align: center;
+	    margin-top: 10px;
+	    margin-left: 30%;
+	}
+	.tablas{
+		width: 100%;
+		display: grid;
+		grid-template-columns: 1fr;
+		
+	}
+	.prendasAcomodadas{
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	
+	.botonera{
+		display: none !important;
+	}
+	.tituloSeccion{
+		margin-top: 50px;
+		font-size: 50px;
+	}	
+	.tituloIndex{
+		font-size: 40px;
+	}
+	.textoCentradoBG h3 {
+		font-size: 20px;
+	}
+	.textoCentradoBG p {
+			font-size: 10px;
+	}
+	.divContacto{
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.encontranos{
+		text-align: center;
+}
+
+}
+/*--------EN ESTA MEDIDA COLOCARIA UN MENU HAMBURGUESA EN LUGAR DE LOS BOTONES---------*/
+@media only screen and (max-width: 575px){
+	.tituloEscondido{
+		display: block;
+
+	}
+
+
+}
+/*-----------------------MEDIDA DE IPHONE 6/7/8 ---------------------*/
+@media only screen and (max-width: 450px){
+	.tituloPrincipal {
+		text-align: center;
+	    margin-top: 10px;
+	    margin-left: 20%;
+	}
+	
+
+	.textoCentradoBG{
+		margin-top: 40px;
+	}
+
+	.tituloIndex {
+		font-size: 20px;
+		font-family: 'Yeseva One', cursive;
+	}
+	.textoCentradoBG h3 {
+		font-size: 10px;
+	}
+	.textoCentradoBG p {
+		font-size: 8px;
+	}
+	.prendasAcomodadas{
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.tituloCadaPrenda{
+		font-size: 20px;
+	}
+
+	footer h2{
+		font-size: 15px;
+	}
+	.tituloSeccion{
+		font-size: 30px;
+	}	
+	
+}

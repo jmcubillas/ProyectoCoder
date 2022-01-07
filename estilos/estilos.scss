@@ -1,0 +1,42 @@
+
+
+// Colores por gradiente
+$color01: #e3d7bf;
+$color02: #c7b69f;
+$color03: #ab9680;
+$color04: #7e634e;
+$color05: #735945;
+
+$colorbordeinactivo: #d9d9d9;
+$colorbordeactivo: black;
+
+$colortextobotones:black;
+$colortextoprincipal:#212529;
+
+$tipografiageneral: 'Yeseva One', cursive;
+
+
+body {
+	// background-color: #e3d7bf;
+	font-family: $tipografiageneral;
+	margin: 0;	
+	background-image: url(../imagenes/stacked-waves-haikei.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+/*--------------------------------------------*/
+
+@import "_header.scss";
+@import "_footer.scss";
+@import "_index.scss";
+@import "_productos.scss";
+@import "_talles.scss";
+@import "_comprar.scss";
+@import "_info.scss";
+@import "_contacto.scss";
+@import "_mediasq.scss";
+
+
