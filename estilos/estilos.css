@@ -7,7 +7,7 @@ body {
   background-position: center;
 }
 
-/*--------------------------------------------*/
+/*-----------------------------------------*/
 /*-----Header-------*/
 header {
   margin: 0px;
@@ -84,7 +84,6 @@ header {
 /*-----FinHeader-------*/
 /*-----Footer-------*/
 footer {
-  background: -webkit-gradient(linear, left top, right top, from(#ab9680), to(#e3d7bf));
   background: linear-gradient(to right, #ab9680, #e3d7bf);
   height: 160px;
   width: 100%;
@@ -115,12 +114,8 @@ footer nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 /*-----FinFooter-------*/
@@ -195,7 +190,6 @@ main {
   height: 100%;
   width: 100%;
   opacity: 0;
-  -webkit-transition: .2s;
   transition: .2s;
   background-color: #c7b69f;
 }
@@ -225,12 +219,9 @@ main {
   width: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
+  align-items: start;
   justify-items: center;
   padding-right: 20px;
   padding-left: 20px;
@@ -247,12 +238,9 @@ main {
   width: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
+  align-items: start;
   justify-items: center;
   padding-bottom: 50px;
 }
@@ -380,20 +368,16 @@ main {
   }
   .tablas {
     width: 100%;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .tituloCadaPrenda {
     font-size: 30px;
   }
   .prendasAcomodadas {
     width: 100%;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .tituloSeccion {
     font-size: 55px;
@@ -416,20 +400,13 @@ main {
   }
   .tablas {
     width: 100%;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
   .prendasAcomodadas {
     width: 100%;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-  }
-  .botonera {
-    display: none !important;
+    grid-template-columns: repeat(2, 1fr);
   }
   .tituloSeccion {
     margin-top: 50px;
@@ -446,10 +423,8 @@ main {
   }
   .divContacto {
     width: 100%;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .encontranos {
     text-align: center;
@@ -485,10 +460,8 @@ main {
   }
   .prendasAcomodadas {
     width: 100%;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .tituloCadaPrenda {
     font-size: 20px;

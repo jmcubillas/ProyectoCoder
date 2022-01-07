@@ -1,5 +1,4 @@
 
-
 // Colores por gradiente
 $color01: #e3d7bf;
 $color02: #c7b69f;
@@ -25,9 +24,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 }
-
-
-/*--------------------------------------------*/
+/*-----------------------------------------*/
 
 @import "_header.scss";
 @import "_footer.scss";
@@ -38,5 +35,3 @@ body {
 @import "_info.scss";
 @import "_contacto.scss";
 @import "_mediasq.scss";
-
-
