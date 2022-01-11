@@ -1,42 +1,4 @@
 /*-------------MAIN DE PRODUCTOS---------------*/
-
-.descripcion{
-	position: relative;
-    display: inline-block;
-}
-.prenda {
-    display: block;
-    width: 100%;
-}
-.oculto {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 100%;
-	width: 100%;
-	opacity: 0;
-	transition: .2s;
-	background-color: $color02;
-}
-.descripcion:hover .oculto {
-    opacity: 1;
-}
-.textoPrenda {
-    color: $colortextobotones;
-    font-size: 11px;
-    position: absolute;
-    top: 10%;
-    text-align: center;
-}
-.textoColores{
-		list-style-type: none;
-}
-.tituloCadaPrenda{
-	margin-left: 40px;
-	font-size: 45px;
-}
 .prendasAcomodadas{
 	width: 100%;
 	display: grid;
@@ -44,9 +6,90 @@
 	grid-gap: 20px;
 	align-items: start;
 	justify-items: center;
-	padding-right: 20px;
-	padding-left: 20px;
-	padding-bottom: 50px;
+	padding: 0px 20px 50px 20px;
+	.descripcion{
+		position: relative;
+		display: inline-block;
+		.prenda {
+			display: block;
+			width: 100%;
+		}
+		.oculto {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			height: 100%;
+			width: 100%;
+			opacity: 0;
+			transition: .2s;
+			background-color: $color02;
+			.textoPrenda {
+				color: $colortextobotones;
+				position: absolute;
+				top: 10%;
+				text-align: center;
+				h3{
+					font-size: 23px;
+				}
+				p{
+					font-size: 13px;
+				}
+				ul{
+					font-size: 13px;
+				}
+				.textoColores{
+					list-style-type: none;
+					text-align: center;
+				}
+			}
+		}
+	}
 }
+.descripcion:hover .oculto {
+    opacity: 1;
+}
+.tituloCadaPrenda{
+	margin-left: 40px;
+	font-size: 45px;
+}
+// .prenda {
+//     display: block;
+//     width: 100%;
+// }
+// .oculto {
+// 	position: absolute;
+// 	top: 0;
+// 	bottom: 0;
+// 	left: 0;
+// 	right: 0;
+// 	height: 100%;
+// 	width: 100%;
+// 	opacity: 0;
+// 	transition: .2s;
+// 	background-color: $color02;
+// }
+// .textoPrenda {
+//     color: $colortextobotones;
+//     font-size: 11px;
+//     position: absolute;
+//     top: 10%;
+//     text-align: center;
+// }
+// .textoColores{
+// 		list-style-type: none;
+// }
+// .prendasAcomodadas{
+// 	width: 100%;
+// 	display: grid;
+// 	grid-template-columns: repeat(4, 1fr);
+// 	grid-gap: 20px;
+// 	align-items: start;
+// 	justify-items: center;
+// 	padding-right: 20px;
+// 	padding-left: 20px;
+// 	padding-bottom: 50px;
+// }
 
 /*--------------------------------------------*/

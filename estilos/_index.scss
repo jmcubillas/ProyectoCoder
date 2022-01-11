@@ -5,38 +5,48 @@ main{
 	min-height: 600px;
 	background-size: cover;
 }
+
+// -------Anidación--------
 .contieneBG{
     position: relative;
     display: inline-block;
     text-align: center;
+	div{
+		text-align: center;
+		margin: 80px 80px 20px 80px;
+		padding-bottom: 50px;
+		h2{
+			font-size: 65px;
+		}
+		h3{
+			font-size: 25px;
+		}
+		p{
+			font-size: 15px;
+		}
+	}
 }
-.textoCentradoBG{
-    text-align: center;
-    margin: 80px 80px 20px 80px;
-	padding-bottom: 50px;
-}
-.tituloIndex {
-		font-size: 65px;
-		// font-family: 'Yeseva One', cursive;
-}
-.textoCentradoBG h3 {
-		font-size: 25px;
-}
-.textoCentradoBG p {
-		font-size: 15px;
-}
-.bgPrincipal {
+// .textoCentradoBG{
+//     text-align: center;
+//     margin: 80px 80px 20px 80px;
+// 	padding-bottom: 50px;
+// }
+// .tituloIndex {
+// 		font-size: 65px;
+// }
+// .textoCentradoBG h3 {
+// 		font-size: 25px;
+// }
+// .textoCentradoBG p {
+// 		font-size: 15px;
+// }
 
-	background-size: cover;
-	width: 100%;
-	height: auto;
-}
 .tituloSeccion{
 	text-align: center;
 	font-size: 65px;
 	margin-top: 60px;
+	padding: 20px 0px 15px;
 	text-transform: uppercase;
-	padding-bottom: 15px;
 }
 .carousel-inner img {
     width: 100%;

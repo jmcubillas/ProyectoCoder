@@ -41,27 +41,22 @@ footer {
   width: 100%;
   margin: 0px;
   font-size: 20px; }
-
-footer h2 {
-  margin: 0px;
-  padding-top: 25px;
-  text-align: center;
-  text-transform: uppercase; }
-
-footer nav ul {
-  margin: 0px; }
-
-.logoRedes {
-  width: 35px;
-  height: 35px; }
-
-.botoneraRedes {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around; }
+  footer h2 {
+    margin: 0px;
+    padding-top: 25px;
+    text-align: center;
+    text-transform: uppercase; }
+  footer nav ul {
+    margin: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    footer nav ul img {
+      width: 35px;
+      height: 35px; }
 
 /*-----FinFooter-------*/
 /*------------MAIN DEL INDEX------------------*/
@@ -74,32 +69,23 @@ main {
   position: relative;
   display: inline-block;
   text-align: center; }
-
-.textoCentradoBG {
-  text-align: center;
-  margin: 80px 80px 20px 80px;
-  padding-bottom: 50px; }
-
-.tituloIndex {
-  font-size: 65px; }
-
-.textoCentradoBG h3 {
-  font-size: 25px; }
-
-.textoCentradoBG p {
-  font-size: 15px; }
-
-.bgPrincipal {
-  background-size: cover;
-  width: 100%;
-  height: auto; }
+  .contieneBG div {
+    text-align: center;
+    margin: 80px 80px 20px 80px;
+    padding-bottom: 50px; }
+    .contieneBG div h2 {
+      font-size: 65px; }
+    .contieneBG div h3 {
+      font-size: 25px; }
+    .contieneBG div p {
+      font-size: 15px; }
 
 .tituloSeccion {
   text-align: center;
   font-size: 65px;
   margin-top: 60px;
-  text-transform: uppercase;
-  padding-bottom: 15px; }
+  padding: 20px 0px 15px;
+  text-transform: uppercase; }
 
 .carousel-inner img {
   width: 100%;
@@ -107,43 +93,6 @@ main {
 
 /*--------------------------------------------*/
 /*-------------MAIN DE PRODUCTOS---------------*/
-.descripcion {
-  position: relative;
-  display: inline-block; }
-
-.prenda {
-  display: block;
-  width: 100%; }
-
-.oculto {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .2s;
-  background-color: #c7b69f; }
-
-.descripcion:hover .oculto {
-  opacity: 1; }
-
-.textoPrenda {
-  color: black;
-  font-size: 11px;
-  position: absolute;
-  top: 10%;
-  text-align: center; }
-
-.textoColores {
-  list-style-type: none; }
-
-.tituloCadaPrenda {
-  margin-left: 40px;
-  font-size: 45px; }
-
 .prendasAcomodadas {
   width: 100%;
   display: grid;
@@ -151,11 +100,47 @@ main {
   grid-gap: 20px;
   align-items: start;
   justify-items: center;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-bottom: 50px; }
+  padding: 0px 20px 50px 20px; }
+  .prendasAcomodadas .descripcion {
+    position: relative;
+    display: inline-block; }
+    .prendasAcomodadas .descripcion .prenda {
+      display: block;
+      width: 100%; }
+    .prendasAcomodadas .descripcion .oculto {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .2s;
+      background-color: #c7b69f; }
+      .prendasAcomodadas .descripcion .oculto .textoPrenda {
+        color: black;
+        position: absolute;
+        top: 10%;
+        text-align: center; }
+        .prendasAcomodadas .descripcion .oculto .textoPrenda h3 {
+          font-size: 23px; }
+        .prendasAcomodadas .descripcion .oculto .textoPrenda p {
+          font-size: 13px; }
+        .prendasAcomodadas .descripcion .oculto .textoPrenda ul {
+          font-size: 13px; }
+        .prendasAcomodadas .descripcion .oculto .textoPrenda .textoColores {
+          list-style-type: none;
+          text-align: center; }
 
-/*--------------------------------------------*/
+.descripcion:hover .oculto {
+  opacity: 1; }
+
+.tituloCadaPrenda {
+  margin-left: 40px;
+  font-size: 45px; }
+
+/*------------------------------------------*/
 /*----------MAIN HTML TALLES------------------*/
 .mainTalles {
   text-transform: uppercase; }
