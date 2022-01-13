@@ -4,7 +4,8 @@ body {
   background-image: url(../imagenes/stacked-waves-haikei.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  color: black; }
 
 /*-----------------------------------------*/
 /*-----Header-------*/
@@ -31,7 +32,7 @@ header {
   background-color: #e3d7bf; }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #212529; }
+  color: black; }
 
 /*-----FinHeader-------*/
 /*-----Footer-------*/
@@ -74,7 +75,8 @@ main {
     margin: 80px 80px 20px 80px;
     padding-bottom: 50px; }
     .contieneBG div h2 {
-      font-size: 65px; }
+      font-size: 65px;
+      padding-bottom: 35px; }
     .contieneBG div h3 {
       font-size: 25px; }
     .contieneBG div p {
@@ -140,7 +142,7 @@ main {
   margin-left: 40px;
   font-size: 45px; }
 
-/*------------------------------------------*/
+/*--------------------------------------------*/
 /*----------MAIN HTML TALLES------------------*/
 .mainTalles {
   text-transform: uppercase; }
@@ -157,8 +159,9 @@ main {
 /*--------------------------------------------*/
 /*----------MAIN COMPRAR ------------*/
 .listadoPComprar {
+  padding-left: 8%;
   list-style: none;
-  font-size: 15px; }
+  font-size: 18px; }
 
 .list-group-item {
   background: none !important; }
@@ -169,7 +172,21 @@ main {
 /*--------------------------------------------*/
 /*------------MAIN HTML INFO--------------*/
 .contenedorDatos {
-  padding-left: 25px; }
+  width: 84%;
+  text-align: justify;
+  padding-left: 8%; }
+  .contenedorDatos h2 {
+    font-size: 35px; }
+  .contenedorDatos h3 {
+    font-size: 20px; }
+  .contenedorDatos h3.subTitulos {
+    padding-left: 2%; }
+  .contenedorDatos .listasInfo {
+    list-style-type: disclosure-closed; }
+  .contenedorDatos .subTitulos {
+    text-align: left; }
+  .contenedorDatos .entreTitulos {
+    padding: 8px 0px 10px 0px; }
 
 /*--------------------------------------------*/
 /*------------MAIN HTML CONTACTO--------------*/
@@ -332,7 +349,7 @@ main {
     margin-top: 40px; }
 
   .tituloIndex {
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Yeseva One', cursive; }
 
   .textoCentradoBG h3 {

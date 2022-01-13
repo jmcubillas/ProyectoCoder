@@ -1,7 +1,32 @@
 /*------------MAIN HTML INFO--------------*/
 
 .contenedorDatos{
-	padding-left: 25px;
+	width: 84%;
+	text-align: justify;
+	padding-left: 8%;
+	h2{
+		font-size: 35px;
+	}
+
+	h3{
+		font-size: 20px;
+	}
+	h3.subTitulos{
+			padding-left: 2%;
+	}
+
+	.listasInfo{
+		list-style-type: disclosure-closed;
+	}
+
+	.subTitulos{
+		text-align: left;
+		
+	}
+	.entreTitulos{
+		padding: 8px 0px 10px 0px;		
+	}
+	// padding-left: 25px;
 }
 
 /*--------------------------------------------*/

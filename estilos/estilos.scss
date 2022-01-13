@@ -10,7 +10,8 @@ $colorbordeinactivo: #d9d9d9;
 $colorbordeactivo: black;
 
 $colortextobotones:black;
-$colortextoprincipal:#212529;
+$colortextoprincipal:black;
+// $colortextoprincipal:#212529;
 
 $tipografiageneral: 'Yeseva One', cursive;
 
@@ -23,6 +24,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	color: black;
 }
 /*-----------------------------------------*/
 
