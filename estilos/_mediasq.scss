@@ -103,7 +103,7 @@
 	}
 	.encontranos{
 		text-align: center;
-}
+	}
 
 }
 /*--------EN ESTA MEDIDA COLOCARIA UN MENU HAMBURGUESA EN LUGAR DE LOS BOTONES---------*/
@@ -122,14 +122,12 @@
 		margin-top: 10px;
 		margin-left: 20%;
 	}
-
 	.textoCentradoBG{
 		margin-top: 40px;
 	}
-
 	.tituloIndex {
 		font-size: 18px;
-		font-family: 'Yeseva One', cursive;
+		padding-bottom: 20px;
 	}
 	.textoCentradoBG h3 {
 		font-size: 10px;
@@ -145,12 +143,17 @@
 	.tituloCadaPrenda{
 		font-size: 20px;
 	}
-
 	footer h2{
 		font-size: 15px;
 	}
 	.tituloSeccion{
 		font-size: 30px;
-	}	
+	}		
+	h2.subTitulos{
+		font-size: 25px;
+	}
+	h3.subTitulos{
+		font-size: 15px;
+	}
 	
 }
