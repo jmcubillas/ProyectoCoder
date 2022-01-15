@@ -1,11 +1,7 @@
 /*-----Footer-------*/
 
 footer{
-	background: linear-gradient(to right, $color03, $color01);
-	height: 160px;
-	width: 100%;
-	margin: 0px;
-	font-size: 20px;
+		@extend .propiedadesFooter;
 	h2{
 		margin: 0px;
 		padding-top: 25px;
@@ -14,7 +10,7 @@ footer{
 	}
 	nav{
 		ul{
-		margin: 0px;
+		// margin: 0px;
 		margin-top: 25px;
 		margin-bottom: 25px;
 		list-style: none;

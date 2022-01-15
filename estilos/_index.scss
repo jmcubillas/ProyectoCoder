@@ -45,11 +45,7 @@ p{
 // }
 
 .tituloSeccion{
-	text-align: center;
-	font-size: 65px;
-	margin-top: 60px;
-	padding: 20px 0px 15px;
-	text-transform: uppercase;
+	@include propTexto;
 }
 .carousel-inner img {
     width: 100%;

@@ -13,18 +13,45 @@ $colortextobotones:black;
 $colortextoprincipal:black;
 // $colortextoprincipal:#212529;
 
-$tipografiageneral: 'Yeseva One', cursive;
+// $tipografiageneral: 'Yeseva One', cursive;
 
+//Se aplica un mapa para el color y la  familia del texto de la página
+$mapafont: (
+  color: black,
+  family:  ('Yeseva One', cursive),
+);
+
+//Se aplica un mixin con las características de los títulos (h2 principal) de cada sección
+
+@mixin propTexto {
+	text-align: center;
+	font-size: 65px;
+	margin-top: 60px;
+	padding: 20px 0px 15px;
+	text-transform: uppercase;	
+}
+
+//Se crea un selector con las características del footer de las páginas y le¿uego es llamado con un @extend
+
+.propiedadesFooter {
+	background: linear-gradient(to right, $color03, $color01);
+	height: 160px;
+	width: 100%;
+	margin: 0px;
+	font-size: 20px;
+}
+	
 
 body {
-	// background-color: #e3d7bf;
-	font-family: $tipografiageneral;
+	
+	color: map-get($mapafont, color);
+	font-family: map-get($mapafont, family);
 	margin: 0;	
 	background-image: url(../imagenes/stacked-waves-haikei.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	color: black;
+
 }
 /*-----------------------------------------*/
 
