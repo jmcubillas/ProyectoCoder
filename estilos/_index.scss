@@ -14,9 +14,7 @@ main{
 	div{
 		text-align: center;
 		margin: 80px 80px 20px 80px;
-		padding-bottom: 50px;
-		
-		
+		padding-bottom: 50px;		
 	}
 }
 .tituloIndex{
@@ -27,23 +25,8 @@ h3{
 	font-size: 25px;
 }
 p{
-	font-size: 15px;
+	font-size: 20px;
 }
-// .textoCentradoBG{
-//     text-align: center;
-//     margin: 80px 80px 20px 80px;
-// 	padding-bottom: 50px;
-// }
-// .tituloIndex {
-// 		font-size: 65px;
-// }
-// .textoCentradoBG h3 {
-// 		font-size: 25px;
-// }
-// .textoCentradoBG p {
-// 		font-size: 15px;
-// }
-
 .tituloSeccion{
 	@include propTexto;
 }

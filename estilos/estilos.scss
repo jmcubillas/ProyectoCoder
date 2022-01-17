@@ -15,13 +15,14 @@ $colortextoprincipal:black;
 
 // $tipografiageneral: 'Yeseva One', cursive;
 
-//Se aplica un mapa para el color y la  familia del texto de la página
+//Se aplica un mapa para el color y la  familia del texto de la página. Se usa en body, línea 48.
+
 $mapafont: (
   color: black,
   family:  ('Yeseva One', cursive),
 );
 
-//Se aplica un mixin con las características de los títulos (h2 principal) de cada sección
+//Se aplica un mixin con las características de los títulos (h2 principal) de cada sección. Se lo usa en _index.
 
 @mixin propTexto {
 	text-align: center;
@@ -31,7 +32,7 @@ $mapafont: (
 	text-transform: uppercase;	
 }
 
-//Se crea un selector con las características del footer de las páginas y le¿uego es llamado con un @extend
+//Se crea un selector con las características del footer de las páginas y luego es llamado con un @extend, en _footer.
 
 .propiedadesFooter {
 	background: linear-gradient(to right, $color03, $color01);

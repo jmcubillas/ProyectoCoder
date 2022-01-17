@@ -1,0 +1,11 @@
+Listado de Mejoras SEO
+
+Corrección de los <title> de cada sección, se puso uno acorde a la sección adjuntando al nombre del negocio. 
+
+Se agregó una descripción en cada sección, para que sea más llamativo al momento de elegir nuestra página.
+
+Se utilizaron las metaetiquetas de Keywords (con algunas palabras clave en el index y otras secciones) y Copyright.
+
+Para los encabezados se usaron distintos tamaños, un h1 general y escondido que aparece en mobile, y desp varios niveles más. H2 para los subtítulos de cada sección, etc. 
+
+En las secciones con textos, se los escribieron claros y concisos, se los colocaron en listas para dividir en pasos y fuera más claro de leer.  

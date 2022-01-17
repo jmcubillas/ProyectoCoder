@@ -94,7 +94,7 @@
 		font-size: 20px;
 	}
 	.textoCentradoBG p {
-			font-size: 10px;
+			font-size: 15px;
 	}
 	.divContacto{
 		width: 100%;
@@ -110,7 +110,9 @@
 @media only screen and (max-width: 575px){
 	.tituloEscondido{
 		display: block;
-
+	}
+	.tituloIndex{
+		display: none;
 	}
 
 
@@ -130,10 +132,10 @@
 		padding-bottom: 20px;
 	}
 	.textoCentradoBG h3 {
-		font-size: 10px;
+		font-size: 15px;
 	}
 	.textoCentradoBG p {
-		font-size: 8px;
+		font-size: 10px;
 	}
 	.prendasAcomodadas{
 		width: 100%;
