@@ -11,6 +11,7 @@
 
 	.listasInfo{
 		list-style-type: disclosure-closed;
+		font-size: 18px;
 	}
 
 	.subTitulos{
@@ -18,18 +19,19 @@
 		
 	}
 	.entreTitulos{
-		padding: 8px 0px 10px 0px;		
+		padding: 8px 0px 10px 14px;		
 	}
-	// padding-left: 25px;
 }
-h2{
-	font-size: 35;
+
+h3.subTitulos{
+	font-size: 35px;
 }
-h3{
+
+h4.subTitulos{
 	font-size: 30px;
 }
 
-h4{
+.entreTitulos{
 	font-size: 20px;
 }
 

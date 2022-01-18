@@ -1,7 +1,8 @@
 
 // Colores por gradiente
-$color01: #e3d7bf;
-$color02: #c7b69f;
+$color00: #f9eee8;
+$color01: #c7b69f;
+$color02: #e3d7bf;
 $color03: #ab9680;
 $color04: #7e634e;
 $color05: #735945;
@@ -11,9 +12,6 @@ $colorbordeactivo: black;
 
 $colortextobotones:black;
 $colortextoprincipal:black;
-// $colortextoprincipal:#212529;
-
-// $tipografiageneral: 'Yeseva One', cursive;
 
 //Se aplica un mapa para el color y la  familia del texto de la página. Se usa en body, línea 48.
 
@@ -48,7 +46,8 @@ body {
 	color: map-get($mapafont, color);
 	font-family: map-get($mapafont, family);
 	margin: 0;	
-	background-image: url(../imagenes/stacked-waves-haikei.svg);
+	// background-image: url(../imagenes/stacked-waves-haikei.svg);
+	background-color: $color02;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;

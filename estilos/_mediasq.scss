@@ -65,12 +65,13 @@
 }
 
 @media only screen and (max-width: 780px){
-
-		.tituloPrincipal {
-		display: inline-block;
-		text-align: center;
-	    margin-top: 10px;
-	    margin-left: 30%;
+	.dropdown-menu{
+        background-color: $color01;
+        font-size: 17px;
+	}
+	.navbar{
+			background-color: $color01;
+			font-size: 17px;
 	}
 	.tablas{
 		width: 100%;
@@ -85,17 +86,18 @@
 	}
 	.tituloSeccion{
 		margin-top: 50px;
-		font-size: 40px;
+		font-size: 45px;
 	}	
 	.tituloIndex{
-		font-size: 40px;
+		font-size: 45px;
 	}
-	.textoCentradoBG h3 {
-		font-size: 20px;
-	}
+	// .textoCentradoBG h3 {
+	// 	font-size: 23px;
+	// }
 	.textoCentradoBG p {
-			font-size: 15px;
+		font-size: 18px;
 	}
+	
 	.divContacto{
 		width: 100%;
 		display: grid;
@@ -114,8 +116,6 @@
 	.tituloIndex{
 		display: none;
 	}
-
-
 }
 /*-----------------------MEDIDA DE IPHONE 6/7/8 ---------------------*/
 @media only screen and (max-width: 450px){
@@ -127,16 +127,12 @@
 	.textoCentradoBG{
 		margin-top: 40px;
 	}
-	.tituloIndex {
-		font-size: 25px;
-		padding-bottom: 20px;
-	}
-	.textoCentradoBG h3 {
-		font-size: 15px;
-	}
-	.textoCentradoBG p {
-		font-size: 10px;
-	}
+	// .textoCentradoBG h3 {
+	// 	font-size: 15px;
+	// }
+	// .textoCentradoBG p {
+	// 	font-size: 10px;
+	// }
 	.prendasAcomodadas{
 		width: 100%;
 		display: grid;
@@ -155,7 +151,10 @@
 		font-size: 20px;
 	}
 	h4.subTitulos{
-		font-size: 15px;
+		font-size: 18px;
+	}
+	h4.entreTitulos{
+		font-size: 18px;
 	}
 	
 }
