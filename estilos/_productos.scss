@@ -25,30 +25,37 @@
 			opacity: 0;
 			transition: .2s;
 			background-color: $color01;
+			border-radius: 2%;
 			.textoPrenda {
 				color: $colortextobotones;
 				position: absolute;
 				top: 10%;
 				text-align: center;
 				h3{
-					font-size: 23px;
+					font-size: 22px;
 				}
 				p{
-					font-size: 13px;
+					font-size: 18px;
 				}
 				ul{
-					font-size: 13px;
+					font-size: 18px;
 				}
 				.textoColores{
 					list-style-type: none;
-					text-align: center;
+					text-align: left;
+					padding-left: 35%;
 				}
 			}
 		}
 	}
 }
+.descPrendas{
+	padding: 0 15px 0 15px;
+	display: inline;
+	background: yellow;
+}
 .descripcion:hover .oculto {
-    opacity: 1;
+    opacity: 0.9;
 }
 .tituloCadaPrenda{
 	margin-left: 40px;

@@ -1,14 +1,28 @@
 /*----------MAIN COMPRAR ------------*/
 
-.listadoPComprar{
-	padding-left: 8%;
-	list-style: none;
-	font-size: 18px;
+.subTituloComprar{
+	font-size: 25px;
+	padding-left: 15%;
 }
-.list-group-item{
-	background: none !important;
+.servicios{
+	text-align: center;
+	color: black;
+	img{
+		padding-bottom: 15px;
+	}
 }
-.datoSecundario{
-	padding-left: 40px;
-}
+.entreTituloComprar{
+		font-size: 20px;
+		padding: 5px;
+	}
+.descTituloComprar{
+		font-size: 18px;
+		padding-bottom: 40px;
+		text-decoration:none;
+		a{
+			color:black;
+		}
+	}
+	
+
 /*--------------------------------------------*/

@@ -1,6 +1,6 @@
 .propiedadesFooter, footer {
   background: linear-gradient(to right, #ab9680, #c7b69f);
-  height: 160px;
+  height: 200px;
   width: 100%;
   margin: 0px;
   font-size: 20px; }
@@ -51,8 +51,8 @@ footer h2 {
   text-align: center;
   text-transform: uppercase; }
 footer nav ul {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 30px;
+  margin-bottom: 60px;
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -82,10 +82,11 @@ main {
   padding-bottom: 35px; }
 
 h3 {
-  font-size: 25px; }
+  font-size: 35px;
+  margin-bottom: 35px; }
 
 p {
-  font-size: 20px; }
+  font-size: 25px; }
 
 .tituloSeccion {
   text-align: center;
@@ -124,24 +125,31 @@ p {
       width: 100%;
       opacity: 0;
       transition: .2s;
-      background-color: #c7b69f; }
+      background-color: #c7b69f;
+      border-radius: 2%; }
       .prendasAcomodadas .descripcion .oculto .textoPrenda {
         color: black;
         position: absolute;
         top: 10%;
         text-align: center; }
         .prendasAcomodadas .descripcion .oculto .textoPrenda h3 {
-          font-size: 23px; }
+          font-size: 22px; }
         .prendasAcomodadas .descripcion .oculto .textoPrenda p {
-          font-size: 13px; }
+          font-size: 18px; }
         .prendasAcomodadas .descripcion .oculto .textoPrenda ul {
-          font-size: 13px; }
+          font-size: 18px; }
         .prendasAcomodadas .descripcion .oculto .textoPrenda .textoColores {
           list-style-type: none;
-          text-align: center; }
+          text-align: left;
+          padding-left: 35%; }
+
+.descPrendas {
+  padding: 0 15px 0 15px;
+  display: inline;
+  background: yellow; }
 
 .descripcion:hover .oculto {
-  opacity: 1; }
+  opacity: 0.9; }
 
 .tituloCadaPrenda {
   margin-left: 40px;
@@ -166,23 +174,34 @@ p {
 
 /*--------------------------------------------*/
 /*----------MAIN COMPRAR ------------*/
-.listadoPComprar {
-  padding-left: 8%;
-  list-style: none;
-  font-size: 18px; }
+.subTituloComprar {
+  font-size: 25px;
+  padding-left: 15%; }
 
-.list-group-item {
-  background: none !important; }
+.servicios {
+  text-align: center;
+  color: black; }
+  .servicios img {
+    padding-bottom: 15px; }
 
-.datoSecundario {
-  padding-left: 40px; }
+.entreTituloComprar {
+  font-size: 20px;
+  padding: 5px; }
+
+.descTituloComprar {
+  font-size: 18px;
+  padding-bottom: 40px;
+  text-decoration: none; }
+  .descTituloComprar a {
+    color: black; }
 
 /*--------------------------------------------*/
 /*------------MAIN HTML INFO--------------*/
 .contenedorDatos {
   width: 84%;
   text-align: justify;
-  padding-left: 8%; }
+  padding-left: 8%;
+  padding-bottom: 40px; }
   .contenedorDatos h4.subTitulos {
     padding-left: 2%; }
   .contenedorDatos .listasInfo {
@@ -345,6 +364,9 @@ p.mb-6 {
 
   .textoCentradoBG p {
     font-size: 18px; }
+
+  .textoCentradoBG h3 {
+    font-size: 25px; }
 
   .divContacto {
     width: 100%;
