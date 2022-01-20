@@ -168,9 +168,23 @@ p {
   align-items: start;
   justify-items: center;
   padding-bottom: 50px; }
+  .tablas img {
+    border-radius: 7px; }
 
 .table {
   color: black; }
+
+.verde {
+  color: #18cf72; }
+
+.naranja {
+  color: #f1b523; }
+
+.violeta {
+  color: #ab92d6; }
+
+.bordeaux {
+  color: #9d3050; }
 
 /*--------------------------------------------*/
 /*----------MAIN COMPRAR ------------*/
@@ -198,7 +212,7 @@ p {
 /*--------------------------------------------*/
 /*------------MAIN HTML INFO--------------*/
 .contenedorDatos {
-  width: 84%;
+  width: 60%;
   text-align: justify;
   padding-left: 8%;
   padding-bottom: 40px; }
@@ -212,6 +226,13 @@ p {
   .contenedorDatos .entreTitulos {
     padding: 8px 0px 10px 14px; }
 
+.pregunta {
+  width: 15%;
+  padding-left: 20%;
+  background-image: url(../imagenes/pregunta2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 h3.subTitulos {
   font-size: 35px; }
 
@@ -220,6 +241,13 @@ h4.subTitulos {
 
 .entreTitulos {
   font-size: 20px; }
+
+.datosOcultos {
+  display: none;
+  width: 84%;
+  text-align: justify;
+  padding-left: 8%;
+  padding-bottom: 40px; }
 
 /*--------------------------------------------*/
 /*------------MAIN HTML CONTACTO--------------*/
@@ -335,7 +363,13 @@ p.mb-6 {
     padding-left: 5%; }
 
   .tituloIndex {
-    font-size: 55px; } }
+    font-size: 55px; }
+
+  .datosVisibles {
+    display: none; }
+
+  .datosOcultos {
+    display: block; } }
 @media only screen and (max-width: 780px) {
   .dropdown-menu {
     background-color: #c7b69f;
