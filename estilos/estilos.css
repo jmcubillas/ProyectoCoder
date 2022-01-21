@@ -305,6 +305,9 @@ p.mb-6 {
 .list-unstyled {
   font-size: 18px; }
 
+.mapaContacto {
+  padding-left: 10px; }
+
 /*--------------------------------------------*/
 @media only screen and (max-width: 1080px) {
   .botonera li {
