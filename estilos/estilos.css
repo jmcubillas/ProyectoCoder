@@ -3,9 +3,7 @@
   height: 200px;
   width: 100%;
   margin: 0px;
-  font-size: 20px;
-  position: fixed;
-  bottom: 0; }
+  font-size: 20px; }
 
 body {
   color: black;
@@ -67,7 +65,7 @@ footer nav ul {
 /*------------MAIN DEL INDEX------------------*/
 main {
   padding-top: 65px;
-  min-height: 600px;
+  min-height: 700px;
   background-size: cover; }
 
 .contieneBG {
