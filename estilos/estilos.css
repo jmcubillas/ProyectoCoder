@@ -194,7 +194,8 @@ p {
 
 .servicios {
   text-align: center;
-  color: black; }
+  color: black;
+  padding-bottom: 50px; }
   .servicios img {
     padding-bottom: 15px; }
 
