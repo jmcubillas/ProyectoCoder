@@ -190,7 +190,8 @@ p {
 /*----------MAIN COMPRAR ------------*/
 .subTituloComprar {
   font-size: 25px;
-  padding-left: 15%; }
+  padding-left: 15%;
+  text-align: justify; }
 
 .servicios {
   text-align: center;
