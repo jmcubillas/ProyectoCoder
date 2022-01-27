@@ -140,7 +140,7 @@ p {
         .prendasAcomodadas .descripcion .oculto .textoPrenda ul {
           font-size: 18px; }
         .prendasAcomodadas .descripcion .oculto .textoPrenda .textoColores {
-          list-style-type: none;
+          list-style-type: disc;
           text-align: left;
           padding-left: 35%; }
 
@@ -292,7 +292,7 @@ h4.subTitulos {
   color: black; }
 
 .btn-primary {
-  color: black;
+  color: white;
   background-color: #7e634e;
   border-color: #7e634e;
   border-radius: 10% !important; }
